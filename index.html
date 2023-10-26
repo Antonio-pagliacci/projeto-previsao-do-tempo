@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--font Awsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--style css-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--script-->
+    <script src="/js/script.js" defer></script>
+    <title>app previsão do tempo</title>
+</head>
+
+<body>
+    <div class="container-principal">
+        <input class="input-cidade" type="text" placeholder="Digite o nome da Cidade">
+        <button onclick="cliqueiNoBotao()" class="botao-busca">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+       
+        <div class="container-medio">
+            <h2 class="titulo-cidade">Tempo em: São Paulo</h2>
+            <p class="temp">21ºC</p>
+
+
+            <div class="container-menor">
+               <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="">
+                <p class="texto-previsao">Nublado</p>
+
+            </div>
+
+            <p class="umidade">Umidade 76%</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
